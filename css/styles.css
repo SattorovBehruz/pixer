@@ -18,6 +18,8 @@ img {
   padding: 0 20px;
 }
 
+/* header stili boshlanishi */
+
 .heding-box {
   display: flex;
   align-items: center;
@@ -91,6 +93,10 @@ img {
   border: none;
 }
 
+/* header stili tugashi */
+
+/* Biznesingizni keyingi bosqichga olib chiqing section stili boshlanishi */
+
 .hero-section {
   padding: 80px 0;
 }
@@ -131,6 +137,11 @@ img {
   background: #00bafc99;
   border-radius: 5px;
 }
+
+/* Biznesingizni keyingi bosqichga olib chiqing section stili tugashi */
+
+
+/* xizmatlar section stili boshlanishi */
 
 .section-services {
   padding: 56px 0;
@@ -206,6 +217,11 @@ img {
   line-height: 24px;
 }
 
+/* xizmatlar section stili tugashi */
+
+
+/* Biz qanday ishlaymiz? section stili boshlanishi */
+
 .work-section {
   padding: 56px 0;
 }
@@ -272,6 +288,11 @@ img {
   font-size: 16px;
   line-height: 24px;
 }
+
+/* Biz qanday ishlaymiz? section stili tugashi. */
+
+
+/* footer stili boshlanishi. */
 
 .site-footer {
   background-color: #191919;
@@ -348,3 +369,5 @@ img {
   font-weight: 400;
   line-height: 24px;
 }
+
+/* footer stili tugashi. */
