@@ -20,6 +20,11 @@ img {
 
 /* header stili boshlanishi */
 
+.heding {
+  padding: 8px 0;
+  box-shadow: 0px 4px 20px 0px #0000001a;
+}
+
 .heding-box {
   display: flex;
   align-items: center;
@@ -45,31 +50,27 @@ img {
   list-style: none;
 }
 
-.nav-iteam {
-  padding: 16px;
-}
-
-.nav-iteam:hover {
-  border-bottom: 3px solid #191919;
-}
-
-.nav-iteam:active {
-  border-bottom: none;
-  background-color: #191919B2;
-}
-
 .nav-link {
   text-decoration-line: none;
+  padding: 16px;
   font-size: 15px;
   font-weight: 400;
   line-height: 24px;
+  border-bottom: 3px solid transparent;
+}
+
+.nav-link:hover {
+  border-bottom: solid #191919;
 }
 
 .nav-link:active {
   color: #fff;
+  border-bottom: none;
+  background-color: #191919B2;
 }
 
 .site-link {
+  display: inline-block;
   color: #fff;
   font-size: 15px;
   padding: 8px 16px;
@@ -77,20 +78,21 @@ img {
   text-decoration-line: none;
   border-radius: 5px;
   background-color: #00bafc;
+  border: 3px solid transparent;
 }
 
 .site-link:hover {
   color: #00bafc;
   background-color: #fff;
   border-radius: 5px;
-  border: 3px solid #00BAFC;
+  border: solid #00BAFC;
 }
 
 .site-link:active {
   color: #fff;
-  background: #00bafc99;
+  background-color: #00bafc99;
   border-radius: 5px;
-  border: none;
+  border: 3px solid transparent;
 }
 
 /* header stili tugashi */
@@ -123,6 +125,18 @@ img {
   margin-bottom: 16px;
   font-size: 16px;
   line-height: 24px;
+}
+
+.hero-link {
+  display: inline-block;
+  color: #fff;
+  font-size: 16px;
+  padding: 8px 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-decoration-line: none;
+  border-radius: 5px;
+  background-color: #00bafc;
 }
 
 .hero-link:hover {
@@ -179,8 +193,10 @@ img {
 }
 
 .services-iteam {
+  margin-bottom: 40px;
   margin-right: 70px;
   padding: 24px;
+  box-shadow: 0px 8px 8px 0px #0000001a;
 }
 
 .header {
@@ -199,10 +215,10 @@ img {
 
 .link-list {
   display: flex;
+  align-items: center;
   margin: 0;
   padding: 0;
   margin-left: 371px;
-  margin-top: 40px;
   list-style: none;
 }
 
@@ -258,7 +274,7 @@ img {
 
 .work-iteam {
   display: flex;
-  width: 890px;
+  width: 832px;
   align-items: center;
   margin-bottom: 48px;
 }
@@ -362,12 +378,17 @@ img {
 }
 
 .page-logo {
+  display: flex;
   color: #fff;
-  margin-right: 8px;
+  margin-bottom: 8px;
   font-size: 16px;
   text-decoration-line: none;
   font-weight: 400;
   line-height: 24px;
+}
+
+.page-img {
+  margin-right: 8px;
 }
 
 /* footer stili tugashi. */
