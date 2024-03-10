@@ -392,3 +392,59 @@ img {
 }
 
 /* footer stili tugashi. */
+
+
+/* ikkinchi page stil boshlanishi */
+
+.box {
+  padding: 72px 0;
+}
+
+.servic-list-site {
+  padding: 80px 0;
+  list-style: none;
+  margin: 0;
+}
+
+.servic-item-site {
+  display: flex;
+  width: 740px;
+  padding: 32px;
+  align-items: flex-start;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 64px;
+  gap: 40px;
+  border-radius: 5px;
+  box-shadow: 0px 10px 16px 0px #0000001f;
+}
+
+.servic-item-box {
+  display: flex;
+  width: 500px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.header-item {
+  margin: 0;
+}
+
+.desk-item {
+  margin: 0;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.build-site-list {
+  list-style: url("../images/dot.svg");
+}
+
+.link-list-bulid {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
