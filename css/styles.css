@@ -400,6 +400,10 @@ img {
   padding: 72px 0;
 }
 
+.services-section {
+  background-color: #f4f4f4;
+}
+
 .servic-list-site {
   padding: 80px 0;
   list-style: none;
@@ -410,6 +414,7 @@ img {
   display: flex;
   width: 740px;
   padding: 32px;
+  background-color: #fff;
   align-items: flex-start;
   margin-right: auto;
   margin-left: auto;
@@ -424,27 +429,44 @@ img {
   width: 500px;
   flex-direction: column;
   align-items: flex-start;
-  gap: 16px;
 }
 
 .header-item {
-  margin: 0;
+  margin-bottom: 16px;
 }
 
 .desk-item {
-  margin: 0;
+  margin-block: 0 16px;
   font-size: 16px;
   line-height: 24px;
 }
 
 .build-site-list {
-  list-style: url("../images/dot.svg");
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.build-site-item {
+  margin-bottom: 8px;
+}
+
+.build-site-item::before {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin-right: 8px;
+  background-image: url("../images/dot.svg");
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  content: "";
 }
 
 .link-list-bulid {
   display: flex;
   align-items: center;
-  margin: 0;
+  margin-top: 8px;
   padding: 0;
   list-style: none;
 }
